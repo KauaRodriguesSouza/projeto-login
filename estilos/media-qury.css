@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #172123, #FD0002, #173C44);
+    }
+    section#login{
+        width: 90vw;
+    }
+    section#login > div#imagens {
+        float: left;
+        width:50%;
+        height: 100vh;
+        background: url("../imagens/pexels-erik-mclean-5214413.jpg") no-repeat;
+        background-size: cover;
+    }
+    
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #CACAC8, #6C4C4F, #1A1917);
+    }
+
+    section#login{
+         width: 950px;
+    }
+
+    section#login > div#imagens{
+        background: url("../imagens/pexels-gabriel-hohol-3593922.jpg")no-repeat;
+        background-size: cover;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+}
