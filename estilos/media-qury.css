@@ -19,6 +19,9 @@
         float: right;
         width: 50%;
     }
+    div#formulario > p{
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -33,12 +36,15 @@
     section#login > div#imagens{
         background: url("../imagens/pexels-gabriel-hohol-3593922.jpg")no-repeat;
         background-size: cover;
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
+    div#formulario > p{
+        font-size: 2em;
     }
 }

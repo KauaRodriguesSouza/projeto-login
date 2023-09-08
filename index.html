@@ -6,6 +6,8 @@
     <title>projeto login</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-qury.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -14,12 +16,41 @@
               <!-- aqui vai a imagem do formulario -->
             </div>
             <div id="formulario">
-                <h1>login</h1>
+                    <h1>login</h1>
+                    <p>seja bem vindo(a) novamente. faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente </p>
 
-                <p>seja bem vindo(a) novamente. faça login para acessar sua conta e poder fazer as configuraçoes no seu ambiente </p>
+                <form action="login.php" autocomplete="on">
 
-                <form action="login.php">
+                    <div class="campo">
+                        <!-- aqui é o icone de email do formulario -->
+                        <span class="material-icons">person</span>
 
+                        <!-- aqui é o input do email do formulario -->
+                        <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" required >
+
+                        <!-- aqui é conexao falando que é email -->
+                        <label for="ilogin">login</label>
+
+                    </div>
+
+                    <div class="campo">
+
+                        <!-- aqui em baixo é o icone de senha do formulario -->
+                        <span class="material-icons">vpn_key</span>
+
+                        <!-- aqui é o input da senha  -->
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+
+                        <!-- aqui é a conexão falando que é a senha  -->
+                        <label for="isenha">senha</label>
+
+                    </div>
+
+                        <!-- aqui é o botaoo de entrar -->
+                        <input type="submit" value="entrar">
+
+                        <!-- aqui é a parte de esqueci minha senha -->
+                        <a href="esqueci.html">esqueci minha senha</a><span class="material-icons">mail</span>
 
                 </form>
             </div>
