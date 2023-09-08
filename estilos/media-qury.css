@@ -6,6 +6,7 @@
     }
     section#login{
         width: 90vw;
+        height: 400px;
     }
     section#login > div#imagens {
         float: left;
@@ -31,11 +32,13 @@
 
     section#login{
          width: 950px;
+         height: 440px;
     }
 
     section#login > div#imagens{
         background: url("../imagens/pexels-gabriel-hohol-3593922.jpg")no-repeat;
         background-size: cover;
+        background-position: center;
         float: right;
         width: 50%;
         height: 100%;
